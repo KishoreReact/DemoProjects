@@ -1,61 +1,69 @@
-
 body {
-    background-color: black;
-    color: white; 
-    margin: 0; 
-    font-family: Arial, sans-serif; 
-  }
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
 .main-container {
-    text-align: center;
-    margin: 50px;
-    padding: 20px;
-  }
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+}
 
-  .first-container{
-    padding-bottom: 75px;
-  }
+.first-container {
+  padding-bottom: 75px;
+}
 
-  .second-container{
-    padding-bottom: 35px;
-  }
-  
-  .third-container{
-    padding-bottom: 95px;
-  } 
+.second-container {
+  padding-bottom: 35px;
+}
 
-  .main-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 45px;
-    line-height: 48px;
-    letter-spacing: 0.96px;
-    text-align: center;
-  }
-  
-  
-  .main-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    width:'auto';
-  }
+.third-container {
+  padding-bottom: 95px;
+}
+.main-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 48px;
+  letter-spacing: 0.96px;
+  text-transform: capitalize;
+}
+.main-text {
+  color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
-  
-  .main-text {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-  
-  .visit-website-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #0e0d0d;
-    border: none;
-    cursor: pointer;
-  }
+.main-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  width: "auto";
+}
 
-  .image-row {
+.main-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.visit-website-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #0e0d0d;
+  border: none;
+  cursor: pointer;
+}
+
+.image-row {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -73,138 +81,182 @@ body {
 }
 
 .column-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .column {
-    text-align: center;
-    margin-right: 10px;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.column-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  width: auto;
+}
+@media (max-width: 768px) {
   .column-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    width: auto;
+    height: 150px;
   }
-  @media (max-width: 768px) {
-    .column-image {
-      height: 150px; 
-      
-    }
-  }
+}
+.column-image2 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  width: auto;
+}
+@media (min-width: 576px) {
   .column-image2 {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
     width: auto;
   }
-  @media (min-width: 576px) {
-    .column-image2 {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-      width: auto;
-    }
-  }
-  @media (max-width: 575px){ .column-image2 {
+}
+@media (max-width: 575px) {
+  .column-image2 {
     max-width: 100%;
-    height: 5   0%;
+    height: 5 0%;
     margin-bottom: 10px;
     width: auto;
   }
 }
-  
-  .column-text {
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-  
-  .contribution-section {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .contribution-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .contribution-paragraph {
-    font-size: 14px;
-    max-width: 600px;
-    margin: 0 auto;
-  }
 
+.column-text {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 19px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.38px;
+text-transform: capitalize;
+}
+
+.contribution-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contribution-heading {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 48px; 
+  text-transform: capitalize;
+}
+
+.contribution-paragraph {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.metrics-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.metric-column {
+  text-align: center;
+}
+
+.metric-heading {
+  color: #FFF;
+font-family: Roboto;
+font-size: 80px;
+font-style: normal;
+font-weight: 200;
+line-height: 17.571px;
+}
+
+.metric-text {
+  color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
   .metrics-row {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .metric-column {
-    text-align: center;
-  }
-  
-  .metric-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .metric-text {
-    font-size: 14px;
-  }
-
-  .contact-section {
-    text-align: center;
     margin-top: 20px;
   }
-  
-  .contact-heading {
-    font-size: 24px;
-    margin-bottom: 25px;
-  }
-  
-  .contact-text {
-    font-size: 14px;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 45px;
-  }
-  
-  .contact-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-  }
+}
 
-  .contact-us-button{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #f3f3f7;
-    color: #0a0a0a;
-    border: rgb(236, 232, 232);
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  
-  .skype-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #0d0d0e;
-    color: #fff;
-    border: rgb(236, 232, 232);
-    cursor: pointer;
-    margin-right: 10px;
-  }
+.contact-section {
+  text-align: center;
+  margin-top: 20px;
+}
 
-  .copyright-text {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 180px;
-  }
-  
-  
+.contact-heading {
+  color: #FFF;
+font-family: Roboto;
+font-size: 45px;
+font-style: normal;
+font-weight: 300;
+line-height: 48px; 
+letter-spacing: 0.96px;
+text-transform: capitalize;
+}
+
+.contact-text {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-us-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f3f3f7;
+  color: #0a0a0a;
+  border: rgb(236, 232, 232);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.skype-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0d0d0e;
+  color: #fff;
+  border: rgb(236, 232, 232);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.copyright-text {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 180px;
+}
